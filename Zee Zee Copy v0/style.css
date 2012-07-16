@@ -1,0 +1,905 @@
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+	background:url(Images/main-bg.gif) 0 0 repeat-x #dae2ff;
+	color:#FFFFFF;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+div, p, h1, h2, h3, ul, img{
+	padding:0px;
+	margin:0px;
+	font-size: 20px;
+}
+ul{list-style-type:none;}
+/* TOP PANEL */
+#topPan{width:778px; height:96px; position:absolute; margin:0 auto; padding:0;}
+#topPan img{width:300px; height:42.5px; display:block; padding:23px 0 0 6px;}
+/* Menu Panel */
+#topPan ul{width:520px; height:96px; display:block; position:absolute; top:0px; left:350px; margin:0; padding:0;}
+#topPan ul li{float:left; width:104px; display:block; text-align:center;}
+#topPan ul li a{
+	width:104px;
+	height:35px;
+	display:block;
+	font:14px/14px "Trebuchet MS",Arial, Helvetica, sans-serif;
+	color:#000000;
+	background:url(Images/menu-bg.gif) 0 0 repeat-x #dae2ff;
+	text-decoration:none;
+	margin:0;
+	padding:61px 0 0 0;
+}
+#topPan ul li a:hover{
+	width:104px;
+	height:96px;
+	display:block;
+	background:url(Images/menu-divider1.gif) 100% 0 no-repeat #dae2ff;
+	color:#000000;
+	text-decoration:none;
+}
+#topPan ul li span{
+	width:104px;
+	height:35px;
+	display:block;
+	background:url(Images/menu-divider1.gif) 100% 0 no-repeat #dae2ff;
+	color:#000000;
+	text-decoration:none;
+	padding:61px 0 0 0;
+	line-height:14px;
+	font:14px/14px "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+/* BODY PANEL */
+#bodyPan{
+	position: relative;
+	top: 116px;
+	width:800px; 
+	margin:0 auto; 
+	padding:0;
+}
+/*Left Panel*/
+#leftBox{
+	width: 302px;
+	height: 703px;
+	top: 50px;
+	left: 0px;
+	position: absolute;
+	background-color: #DAE2FF;
+	background-image: url(Images/leftpanel.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #reader{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 10px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/genericReader.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #reader a{text-decoration:none; display:block; width:250px; height:40px;}
+#leftBox #reader h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #reader h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #reader h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #reader a:hover{
+	background-image: url(Images/Icons/genericReaderGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #binding{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 50px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/veloBinding.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #binding a{text-decoration:none; display:block; width:250px; height:40px;}
+#leftBox #binding h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #binding h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #binding h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #binding a:hover{
+	background-image: url(Images/Icons/veloBindingGold.jpg);
+	background-repeat: no-repeat;
+}
+#leftBox #bCard{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 90px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/dnu-bc.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #bCard a{text-decoration:none; display:block; width:250px; height:40px;}
+#leftBox #bCard h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #bCard h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #bCard h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #bCard a:hover{
+	background-image: url(Images/Icons/dnu-bcGold.jpg);
+	background-repeat: no-repeat;
+}
+#leftBox #cCopy{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 130px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/colorCopy.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #cCopy a{text-decoration:none; display:block; width:250px; height: 40px;}
+#leftBox #cCopy h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #cCopy h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #cCopy h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #cCopy a:hover{
+	background-image: url(Images/Icons/colorCopyGold.jpg);
+	background-repeat: no-repeat;
+}
+#leftBox #bPrint{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 170px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/bPrint.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #bPrint a{text-decoration:none; display:block; width:250px; height:40px;}
+#leftBox #bPrint h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #bPrint h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #bPrint h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #bPrint a:hover{
+	background-image: url(Images/Icons/bPrintGold.jpg);
+	background-repeat: no-repeat;
+}
+#leftBox #fm{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 210px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/guillotineCutter.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #fm a{text-decoration:none; display:block; width:250px; height:40px;}
+#leftBox #fm h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #fm h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #fm h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #fm a:hover{
+	background-image: url(Images/Icons/guillotineCutterGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #gd{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 250px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/gDes.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #gd a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #gd h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #gd h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #gd h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #gd a:hover{
+	background-image: url(Images/Icons/gDesGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #magazines{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 290px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/magazines.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #magazines a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #magazines h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #magazines h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #magazines h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #magazines a:hover{
+	background-image: url(Images/Icons/magazinesGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #blackwhite{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 330px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/fm.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #blackwhite a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #blackwhite h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #blackwhite h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #blackwhite h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #blackwhite a:hover{
+	background-image: url(Images/Icons/fmGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #internet{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 370px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/hsI.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #internet a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #internet h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #internet h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #internet h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #internet a:hover{
+	background-image: url(Images/Icons/hsIGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox #lam{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 410px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/laminated.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #lam a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #lam h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #lam h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #lam h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #lam a:hover{
+	background-image: url(Images/Icons/laminatedGold.jpg);
+	background-repeat: no-repeat;
+}
+#leftBox #pport{
+	position: absolute;
+	left: 10px;
+	width: 250px;
+	height: 40px;
+	top: 450px;
+	float:left;
+	background-color: #005A93;
+	background-image: url(Images/Icons/fm.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#leftBox #pport a{text-decoration:none; display:block; width:250px; height:40px;}
+
+#leftBox #pport h2{
+	position:absolute;
+	left:0px; top:0px;
+	margin:14px 0 5px 51px;	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #pport h2 a{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 20px;
+	color: #FFF;	
+}
+#leftBox #pport h2 a:hover{
+	position:absolute;
+	left:0px; top:0px;font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-size: 24px;
+	color: #FFF;
+	background-image:none;
+}
+#leftBox #pport a:hover{
+	background-image: url(Images/Icons/fmGold.jpg);
+	background-repeat: no-repeat;
+}
+
+#leftBox ul{
+	
+}
+#leftBox ul li{
+}
+#leftBox ul li a{
+}
+#leftBox ul li a:hover{
+}
+#leftBox ul li span{
+}
+#coreInfo{
+	position:absolute;
+	top: 575px;
+	left: 310px;
+	width: 423px;
+	height: 179px;
+}
+#schedule{
+	background-image: url(Images/schedule1.gif);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 300px;
+}
+#address{
+	background-image: url(Images/address.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 260px;
+	height: 250px;
+	width: 300px;
+}
+
+/*Middle Panel */
+#mainBox{
+	float: left;
+	width:424px;
+	height:510px;
+	position: absolute;
+	background-image: url(Images/wordbox.gif);
+	background-repeat: no-repeat;
+	color:#3D3C2C;
+	top: 50px;
+	left: 310px;
+}
+#mainBoxFull{
+	float: left;
+	width:424px;
+	height:703px;
+	position: absolute;
+	background-image: url(Images/wordboxlong.gif);
+	background-repeat: no-repeat;
+	color:#3D3C2C;
+	top: 50px;
+	left: 310px;
+}
+#textPan{
+	width:400px;
+	height:490px;
+	position:relative;
+	top:10px;
+	left:10px;
+	color:#FFFFFF;
+	background-color: #005A93;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#paddedText{
+	padding-top: 20px;
+	font-size: 14px;
+}
+#paddedText h2{
+	float:left;
+}
+#externalLinks{
+	height: 110px;
+	position:absolute;
+	left: 40px;
+	top: 800px;
+	padding-top: 20px;
+}
+#fbbox{
+	float: left;
+}
+#twitter{
+	float: left;
+	
+}
+#yelp{
+	float: left;
+	position: relative;
+	left: 20px;
+}
+#orderPan{
+	position: relative;
+	top: 116px;
+	width:800px; 
+	margin:0 auto; 
+	padding:0;
+}
+#orderPan ul{
+		width: 100px;
+		height:400px; 
+		display:block; 
+		position:absolute; 
+		top:50px; 
+		left:30px; 
+		margin:0; 
+		padding:0;
+}
+#orderPan ul li{
+	height:100px;
+	display:block;
+	text-align:center;
+	vertical-align: text-bottom;
+}
+
+/*Right Panel*/
+#blueRightest{
+	float: left;
+	width:300px;
+	height:300px;
+	position: absolute;
+	background-image: url(Images/rightbox.gif);
+	background-repeat: no-repeat;
+	color:#FFFFFF;
+	top: 50px;
+	left: 750px;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;}
+#blueRightest #txtbox{
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	width: 293px;
+	height: 221px;
+}
+#blueRightest h1{
+	font-size: 24px;
+	color: #FFF;
+}
+
+#blueRightest h1 a{
+	color: #FFF;
+	text-decoration: none;
+}
+#blueRightest h2{
+	font-size: 20px;	
+}
+
+#leftPan{
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	left: 30px;
+}
+#testimonialbox{
+	height: 200px;
+	width: 300px;
+	background-color: #DAE2FF;
+	background-image: url(Images/Testimonials/testimonialbox.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: relative;
+	top: 0px;
+}
+#testimonialpicture{
+	height: 115px;
+	width: 100px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+#testimonialtext{
+	height: 115px;
+	width: 140px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	font-size: 14pt;
+}
+#testimonialsource{
+	height: 40px;
+	width: 260px;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	font-size: 10pt;
+}
+#storybox{
+	height: 600px;
+	width: 400px;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+	background-color: #DAE2FF;
+	background-image: url(Images/Testimonials/storybox.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#formpan0{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top: 50px;
+	left: 130px;
+	background-image: url(menutabs/1stopen.gif);
+}
+#formpan1{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top: 50px;
+	left: 130px;
+	background-image: url(menutabs/2ndopen.gif);
+}
+
+#readerSection
+{
+	width: 480px;
+	height: 490px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#readerPicture{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 85px;
+}
+#readerText {
+	font-size: 14px;
+	font-style: normal;
+	color: #FFF;
+	position: relative;
+	top: 240px;
+}
+#readerOrder {
+	font-size: 36px;
+	font:Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	position: relative;
+	top: 260px;
+}
+#formpan2{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top: 50px;
+	left: 130px;
+	background-image: url(menutabs/3rdopen.gif);
+}
+#formpan3{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top: 50px;
+	left: 130px;
+	background-image: url(menutabs/4thopen.gif);
+}
+#formLine{
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	height: 40px;
+	width: 350px;
+	position: relative;
+}
+#bigBox {
+	color: #005A93;
+	height: 200px;
+	width: 300px;
+}
+#textBit{
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+#inputBit{
+	color: #005A93;
+	position:absolute;
+	right: 0;
+	top: 0;
+}
+#formOther{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+#uploadbutton{
+	position: relative;
+	top: 5px;
+}
+#infoBox{
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	width: 400px;
+	font-size: 18px;
+}
+#submitbutton{
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	color: #005A93;
+	position: relative;
+	top: 5px;
+}
+#servicesPan{
+	background-image: url(Images/service/servicebox.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 500px;
+	width: 500px;
+	top: 50px;
+	left: 400px;
+	position: absolute;
+}
+#titleImage{
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+#serviceImage{
+	position: relative;
+	top: 40px;
+	height: 250px;
+	left: 100px;
+}
+#wallotext{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	width: 425px;
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+}
+form textarea {
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	color: #005A93;
+	height: 200px;
+	width: 300px;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif, "Helvetica Rounded", "Helvetica Rounded Condensed";
+	font-style: normal;
+	font-weight: bold;
+	color: #005A93;
+}
+#bodyPan #mainBox #textPan #paddedText table tr td {
+	font-size: 14px;
+}
